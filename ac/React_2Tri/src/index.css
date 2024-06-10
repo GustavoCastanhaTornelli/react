@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-vermelhoPT {
+    font-size: 1.35rem;
+}
+
+.navbarTroco {
+    align-items: center;
+    height: 5rem;
+    margin-bottom: 0;
+}
+
+.filme-tipos-titulo {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.lista-filmes {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card-filme a { 
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.card-filme {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-right: 1rem;
+    text-align: start;
+}
+
+.titulo-filme {
+    font-weight: 600;
+}
+
+.filmetextos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.filmeDetalhadoDiv {
+    display: flex;
+    position: relative;
+    height: 30rem;
+    color: black;
+    overflow: hidden;
+}
+
+.imgFilmeBackground {   
+    position: absolute;
+    display: flex;
+    align-self: center;
+    width: 100%;
+    z-index: -5;
+    color: #66eb19;
+}
+
